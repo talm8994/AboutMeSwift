@@ -17,6 +17,7 @@
 		A39999681C3D9EEC00B449E9 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999671C3D9EEC00B449E9 /* FamilyViewController.swift */; };
 		A399996A1C3D9F3300B449E9 /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999691C3D9F3300B449E9 /* SchoolViewController.swift */; };
 		A399E04E1C3DA3D2001C5CE9 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A399E04D1C3DA3D2001C5CE9 /* AboutMe.swift */; };
+		A399E0501C3DAD10001C5CE9 /* FunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A399E04F1C3DAD10001C5CE9 /* FunViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A39999671C3D9EEC00B449E9 /* FamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
 		A39999691C3D9F3300B449E9 /* SchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
 		A399E04D1C3DA3D2001C5CE9 /* AboutMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		A399E04F1C3DAD10001C5CE9 /* FunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				A39999671C3D9EEC00B449E9 /* FamilyViewController.swift */,
 				A39999691C3D9F3300B449E9 /* SchoolViewController.swift */,
 				A399E04D1C3DA3D2001C5CE9 /* AboutMe.swift */,
+				A399E04F1C3DAD10001C5CE9 /* FunViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39999461C3D99FC00B449E9 /* ViewController.swift in Sources */,
+				A399E0501C3DAD10001C5CE9 /* FunViewController.swift in Sources */,
 				A399E04E1C3DA3D2001C5CE9 /* AboutMe.swift in Sources */,
 				A39999441C3D99FC00B449E9 /* AppDelegate.swift in Sources */,
 				A399996A1C3D9F3300B449E9 /* SchoolViewController.swift in Sources */,

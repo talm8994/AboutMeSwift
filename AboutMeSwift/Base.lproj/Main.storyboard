@@ -36,8 +36,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrB-TA-jSi">
-                                <rect key="frame" x="184" y="353" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="348" y="686" width="46" height="30"/>
+                                <state key="normal" title="next"/>
                                 <connections>
                                     <action selector="ToBull:" destination="W52-Qe-1yo" eventType="touchUpInside" id="fFB-oy-nAJ"/>
                                 </connections>
@@ -66,9 +66,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AxW-Ct-AA1">
+                                <rect key="frame" x="78" y="99" width="240" height="128"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ral-PL-LMe">
-                                <rect key="frame" x="184" y="353" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="340" y="686" width="54" height="30"/>
+                                <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="toFamily:" destination="6xT-XC-lFP" eventType="touchUpInside" id="jm2-5r-qDb"/>
                                 </connections>
@@ -100,8 +103,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNB-As-4Bu">
-                                <rect key="frame" x="184" y="353" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="348" y="686" width="46" height="30"/>
+                                <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="toSchool:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2OU-4J-6dP"/>
                                 </connections>
@@ -121,7 +124,7 @@
         <!--bull crap-->
         <scene sceneID="1bZ-mQ-sjZ">
             <objects>
-                <viewController title="bull crap" id="6D2-pg-4h1" sceneMemberID="viewController">
+                <viewController title="bull crap" id="6D2-pg-4h1" customClass="FamilyViewController" customModule="AboutMeSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q6B-jZ-lPW"/>
                         <viewControllerLayoutGuide type="bottom" id="cnn-oN-JLE"/>
@@ -131,7 +134,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df0-TU-IDh">
-                                <rect key="frame" x="184" y="353" width="46" height="30"/>
+                                <rect key="frame" x="348" y="686" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
