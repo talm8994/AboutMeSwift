@@ -1,5 +1,5 @@
 //
-//  SchoolViewController.swift
+//  AboutMe.swift
 //  AboutMeSwift
 //
 //  Created by Almeida, Thomas on 1/6/16.
@@ -9,8 +9,9 @@
 import Foundation
 import UIKit
 
-class SchoolViewController : UIViewController
+class AboutMe : UIViewController
 {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,9 +21,10 @@ class SchoolViewController : UIViewController
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func ToBull(sender: UIButton)
+    @IBAction func toFamily(sender: UIButton)
     {
-        performSegueWithIdentifier("ToBull", sender: sender)
+        performSegueWithIdentifier("toFamily", sender:
+        sender)
     }
+
 }

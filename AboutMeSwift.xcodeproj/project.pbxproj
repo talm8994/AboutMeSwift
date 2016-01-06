@@ -16,6 +16,7 @@
 		A39999661C3D9E9600B449E9 /* runningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999651C3D9E9600B449E9 /* runningView.swift */; };
 		A39999681C3D9EEC00B449E9 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999671C3D9EEC00B449E9 /* FamilyViewController.swift */; };
 		A399996A1C3D9F3300B449E9 /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999691C3D9F3300B449E9 /* SchoolViewController.swift */; };
+		A399E04E1C3DA3D2001C5CE9 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A399E04D1C3DA3D2001C5CE9 /* AboutMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		A39999651C3D9E9600B449E9 /* runningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = runningView.swift; sourceTree = "<group>"; };
 		A39999671C3D9EEC00B449E9 /* FamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
 		A39999691C3D9F3300B449E9 /* SchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
+		A399E04D1C3DA3D2001C5CE9 /* AboutMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				A39999651C3D9E9600B449E9 /* runningView.swift */,
 				A39999671C3D9EEC00B449E9 /* FamilyViewController.swift */,
 				A39999691C3D9F3300B449E9 /* SchoolViewController.swift */,
+				A399E04D1C3DA3D2001C5CE9 /* AboutMe.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39999461C3D99FC00B449E9 /* ViewController.swift in Sources */,
+				A399E04E1C3DA3D2001C5CE9 /* AboutMe.swift in Sources */,
 				A39999441C3D99FC00B449E9 /* AppDelegate.swift in Sources */,
 				A399996A1C3D9F3300B449E9 /* SchoolViewController.swift in Sources */,
 				A39999681C3D9EEC00B449E9 /* FamilyViewController.swift in Sources */,
@@ -416,6 +420,7 @@
 				A399995F1C3D99FC00B449E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A39999601C3D99FC00B449E9 /* Build configuration list for PBXNativeTarget "AboutMeSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				A39999621C3D99FC00B449E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

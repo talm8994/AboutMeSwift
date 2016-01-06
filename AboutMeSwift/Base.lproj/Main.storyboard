@@ -38,20 +38,26 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrB-TA-jSi">
                                 <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="ToBull:" destination="W52-Qe-1yo" eventType="touchUpInside" id="fFB-oy-nAJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.6723427718994518" green="1" blue="0.52604522044674451" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="6D2-pg-4h1" kind="presentation" id="F3c-ia-ubJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hLg-lw-Lel" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="73" y="1390"/>
+            <point key="canvasLocation" x="103" y="1459"/>
         </scene>
         <!--About me-->
         <scene sceneID="62O-UW-o5o">
             <objects>
-                <viewController title="About me" id="6xT-XC-lFP" customClass="UICollectionViewController" sceneMemberID="viewController">
+                <viewController title="About me" id="6xT-XC-lFP" customClass="AboutMe" customModule="AboutMeSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ScG-aT-wPe"/>
                         <viewControllerLayoutGuide type="bottom" id="rEh-xW-URZ"/>
@@ -63,15 +69,23 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ral-PL-LMe">
                                 <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="toFamily:" destination="6xT-XC-lFP" eventType="touchUpInside" id="jm2-5r-qDb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.35004152552138212" blue="0.47375925134508479" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="nextPage" destination="Ral-PL-LMe" id="nSK-kH-FsD"/>
+                        <outlet property="toFamily" destination="Ral-PL-LMe" id="z8F-rI-maT"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toFamily" id="02Y-LS-93U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vMh-Wb-Hkf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="212" y="591"/>
+            <point key="canvasLocation" x="-390" y="587"/>
         </scene>
         <!--family-->
         <scene sceneID="tne-QT-ifu">
@@ -88,15 +102,21 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNB-As-4Bu">
                                 <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="toSchool:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2OU-4J-6dP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90401893178246162" green="0.69550965197916281" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="W52-Qe-1yo" kind="presentation" id="bEP-WP-ryN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749" y="566"/>
+            <point key="canvasLocation" x="103" y="563"/>
         </scene>
         <!--bull crap-->
         <scene sceneID="1bZ-mQ-sjZ">
@@ -118,10 +138,13 @@
                         <color key="backgroundColor" red="1" green="0.57408513411461448" blue="0.44548771683711197" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="6xT-XC-lFP" kind="presentation" id="2dD-Yd-mNr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mqg-8s-gD2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="616" y="1390"/>
+            <point key="canvasLocation" x="-376" y="1432"/>
         </scene>
     </scenes>
 </document>

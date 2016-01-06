@@ -21,4 +21,8 @@ class FamilyViewController : UIViewController
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func toSchool(sender: UIButton)
+    {
+        performSegueWithIdentifier("toSchool", sender: sender)
+    }
 }
