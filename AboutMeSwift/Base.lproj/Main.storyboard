@@ -26,7 +26,7 @@
         <!--school-->
         <scene sceneID="53M-al-uI9">
             <objects>
-                <viewController title="school" id="W52-Qe-1yo" sceneMemberID="viewController">
+                <viewController title="school" id="W52-Qe-1yo" customClass="SchoolViewController" customModule="AboutMeSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sn6-yo-iLX"/>
                         <viewControllerLayoutGuide type="bottom" id="nrf-Gv-tjZ"/>
@@ -51,7 +51,7 @@
         <!--About me-->
         <scene sceneID="62O-UW-o5o">
             <objects>
-                <viewController title="About me" id="6xT-XC-lFP" sceneMemberID="viewController">
+                <viewController title="About me" id="6xT-XC-lFP" customClass="UICollectionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ScG-aT-wPe"/>
                         <viewControllerLayoutGuide type="bottom" id="rEh-xW-URZ"/>
@@ -71,12 +71,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vMh-Wb-Hkf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="61" y="604"/>
+            <point key="canvasLocation" x="212" y="591"/>
         </scene>
         <!--family-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="family" id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMeSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="family" id="BYZ-38-t0r" customClass="FamilyViewController" customModule="AboutMeSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -96,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="616" y="604"/>
+            <point key="canvasLocation" x="749" y="566"/>
         </scene>
         <!--bull crap-->
         <scene sceneID="1bZ-mQ-sjZ">
