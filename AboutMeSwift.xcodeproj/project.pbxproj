@@ -13,6 +13,9 @@
 		A399994B1C3D99FC00B449E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A399994A1C3D99FC00B449E9 /* Assets.xcassets */; };
 		A399994E1C3D99FC00B449E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A399994C1C3D99FC00B449E9 /* LaunchScreen.storyboard */; };
 		A39999591C3D99FC00B449E9 /* AboutMeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999581C3D99FC00B449E9 /* AboutMeSwiftTests.swift */; };
+		A39999661C3D9E9600B449E9 /* runningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999651C3D9E9600B449E9 /* runningView.swift */; };
+		A39999681C3D9EEC00B449E9 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999671C3D9EEC00B449E9 /* FamilyViewController.swift */; };
+		A399996A1C3D9F3300B449E9 /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999691C3D9F3300B449E9 /* SchoolViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		A39999541C3D99FC00B449E9 /* AboutMeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39999581C3D99FC00B449E9 /* AboutMeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeSwiftTests.swift; sourceTree = "<group>"; };
 		A399995A1C3D99FC00B449E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39999651C3D9E9600B449E9 /* runningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = runningView.swift; sourceTree = "<group>"; };
+		A39999671C3D9EEC00B449E9 /* FamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
+		A39999691C3D9F3300B449E9 /* SchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				A39999431C3D99FC00B449E9 /* AppDelegate.swift */,
 				A39999451C3D99FC00B449E9 /* ViewController.swift */,
+				A39999651C3D9E9600B449E9 /* runningView.swift */,
+				A39999671C3D9EEC00B449E9 /* FamilyViewController.swift */,
+				A39999691C3D9F3300B449E9 /* SchoolViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -215,6 +224,9 @@
 			files = (
 				A39999461C3D99FC00B449E9 /* ViewController.swift in Sources */,
 				A39999441C3D99FC00B449E9 /* AppDelegate.swift in Sources */,
+				A399996A1C3D9F3300B449E9 /* SchoolViewController.swift in Sources */,
+				A39999681C3D9EEC00B449E9 /* FamilyViewController.swift in Sources */,
+				A39999661C3D9E9600B449E9 /* runningView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
