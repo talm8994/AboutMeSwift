@@ -13,8 +13,8 @@
 		A399994B1C3D99FC00B449E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A399994A1C3D99FC00B449E9 /* Assets.xcassets */; };
 		A399994E1C3D99FC00B449E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A399994C1C3D99FC00B449E9 /* LaunchScreen.storyboard */; };
 		A39999591C3D99FC00B449E9 /* AboutMeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999581C3D99FC00B449E9 /* AboutMeSwiftTests.swift */; };
-		A39999661C3D9E9600B449E9 /* runningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999651C3D9E9600B449E9 /* runningView.swift */; };
-		A39999681C3D9EEC00B449E9 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999671C3D9EEC00B449E9 /* FamilyViewController.swift */; };
+		A39999661C3D9E9600B449E9 /* gamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999651C3D9E9600B449E9 /* gamesView.swift */; };
+		A39999681C3D9EEC00B449E9 /* computerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999671C3D9EEC00B449E9 /* computerViewController.swift */; };
 		A399996A1C3D9F3300B449E9 /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39999691C3D9F3300B449E9 /* SchoolViewController.swift */; };
 		A399E04E1C3DA3D2001C5CE9 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A399E04D1C3DA3D2001C5CE9 /* AboutMe.swift */; };
 		A399E0501C3DAD10001C5CE9 /* FunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A399E04F1C3DAD10001C5CE9 /* FunViewController.swift */; };
@@ -41,8 +41,8 @@
 		A39999541C3D99FC00B449E9 /* AboutMeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39999581C3D99FC00B449E9 /* AboutMeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeSwiftTests.swift; sourceTree = "<group>"; };
 		A399995A1C3D99FC00B449E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A39999651C3D9E9600B449E9 /* runningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = runningView.swift; sourceTree = "<group>"; };
-		A39999671C3D9EEC00B449E9 /* FamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
+		A39999651C3D9E9600B449E9 /* gamesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gamesView.swift; sourceTree = "<group>"; };
+		A39999671C3D9EEC00B449E9 /* computerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = computerViewController.swift; sourceTree = "<group>"; };
 		A39999691C3D9F3300B449E9 /* SchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
 		A399E04D1C3DA3D2001C5CE9 /* AboutMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
 		A399E04F1C3DAD10001C5CE9 /* FunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunViewController.swift; sourceTree = "<group>"; };
@@ -109,8 +109,8 @@
 			children = (
 				A39999431C3D99FC00B449E9 /* AppDelegate.swift */,
 				A39999451C3D99FC00B449E9 /* ViewController.swift */,
-				A39999651C3D9E9600B449E9 /* runningView.swift */,
-				A39999671C3D9EEC00B449E9 /* FamilyViewController.swift */,
+				A39999651C3D9E9600B449E9 /* gamesView.swift */,
+				A39999671C3D9EEC00B449E9 /* computerViewController.swift */,
 				A39999691C3D9F3300B449E9 /* SchoolViewController.swift */,
 				A399E04D1C3DA3D2001C5CE9 /* AboutMe.swift */,
 				A399E04F1C3DAD10001C5CE9 /* FunViewController.swift */,
@@ -233,8 +233,8 @@
 				A399E04E1C3DA3D2001C5CE9 /* AboutMe.swift in Sources */,
 				A39999441C3D99FC00B449E9 /* AppDelegate.swift in Sources */,
 				A399996A1C3D9F3300B449E9 /* SchoolViewController.swift in Sources */,
-				A39999681C3D9EEC00B449E9 /* FamilyViewController.swift in Sources */,
-				A39999661C3D9E9600B449E9 /* runningView.swift in Sources */,
+				A39999681C3D9EEC00B449E9 /* computerViewController.swift in Sources */,
+				A39999661C3D9E9600B449E9 /* gamesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

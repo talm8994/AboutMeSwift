@@ -21,8 +21,9 @@ class SchoolViewController : UIViewController
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func ToBull(sender: UIButton)
+    @IBAction func toComputer(sender: UIButton)
     {
-        performSegueWithIdentifier("ToBull", sender: sender)
+        performSegueWithIdentifier("toComputer", sender: sender)
     }
-}
+    
+    }

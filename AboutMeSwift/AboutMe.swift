@@ -21,10 +21,9 @@ class AboutMe : UIViewController
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func toFamily(sender: UIButton)
+    @IBAction func toSchool(sender: UIButton)
     {
-        performSegueWithIdentifier("toFamily", sender:
-        sender)
+        performSegueWithIdentifier("toSchool", sender: sender)
     }
-
+    
 }
