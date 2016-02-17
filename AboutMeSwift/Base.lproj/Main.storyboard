@@ -67,9 +67,6 @@
                                     <action selector="toFamily:" destination="6xT-XC-lFP" eventType="touchUpInside" id="jm2-5r-qDb"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meActualy" translatesAutoresizingMaskIntoConstraints="NO" id="Ed1-Tt-7Gg">
-                                <rect key="frame" x="20" y="326" width="374" height="313"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBy-xc-Iwi">
                                 <rect key="frame" x="153" y="28" width="109" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -88,6 +85,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meActualy" translatesAutoresizingMaskIntoConstraints="NO" id="Ed1-Tt-7Gg">
+                                <rect key="frame" x="20" y="326" width="374" height="313"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.35004152552138212" blue="0.47375925134508479" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
